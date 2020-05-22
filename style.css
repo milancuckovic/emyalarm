@@ -1,0 +1,87 @@
+body{
+    background-image: linear-gradient(rgb(0,0,0,0.2), white);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.sadrzaj{
+    background-image: linear-gradient(rgb(0,0,0,0.1) 2%,white 8%,white 90%);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.navbar-custom {
+    background: linear-gradient(to bottom, #f85032 0%,#ef4c37 50%,#f6290c 50%,#f6290c 50%,#cd0909 50%,#cd0909 71%,#cd0909 100%);
+}
+.navbar-item{
+    padding:20px;
+    font-size: 18px;
+}
+.navbar-item:hover{
+    opacity: 0.8px;
+}
+.logo-nav{
+    width:120px;
+    height:40px;
+    display:none;
+}
+header{
+    width: 100%;
+}
+.slika-kat{
+    border:1px solid gray;
+    width: 100%;
+    margin-top: 20px;
+}
+.slika-kat:hover{
+    border-color: #cd0909;
+}
+.naslov-kat{
+    font-size:18px;
+    color:white;
+    margin-top:10px;
+    padding:20px;
+    background-color:#cd0909; 
+}
+.kat-naslov:hover{
+    opacity: 0.8;
+}
+.text-kat{
+    font-size:15px;
+}
+.kat-detaljnije{
+    color:gray;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+footer{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+@media screen and (max-width: 992px) {
+    body{
+        margin-top: 0px;
+        background-image: none;
+        background-color: white;
+    }
+    .logo-nav{
+        display:block;
+    }
+    .sadrzaj{
+        background-image: none;
+    }
+    header{
+        padding-top: 0px !important;
+    }
+    .slike-header{
+        display:none;
+    }
+    .carousel, .slide, nav{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+@media screen and (max-width: 600px) {
+   
+}
+
